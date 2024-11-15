@@ -1,7 +1,6 @@
 // HeroSection.tsx
 import React from "react";
 import Image from "next/image";
-// import heroImage from "../public/path-to-your-image.png"; // Update this path to the actual image path
 
 const HeroSection = () => {
   return (

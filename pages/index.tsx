@@ -1,4 +1,3 @@
-import Image from "next/image";
 import localFont from "next/font/local";
 import HeroSection from "@/components/HeroSection";
 import Header from "@/components/Header";
@@ -6,7 +5,6 @@ import ProblemStatement from "@/components/ProblemStatement";
 import OurSolution from "@/components/OurSolution";
 import Testimonials from "@/components/Testimonials";
 import Footer from "@/components/Footer";
-// import { Testimonials } from "@/components/Testimonials";
 
 const geistSans = localFont({
   src: "./fonts/GeistVF.woff",

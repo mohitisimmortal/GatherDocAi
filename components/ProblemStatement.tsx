@@ -5,7 +5,6 @@ import Image from "next/image";
 const ProblemStatement = () => {
     return (
         <div className="secondarybg">
-
             <div className="max-w-screen-md mx-auto px-4 py-16">
                 {/* Problem Statement Title */}
                 <h2 className="text-center text-black text-sm md:text-base">Problem Statement</h2>

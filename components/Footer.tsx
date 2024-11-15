@@ -4,8 +4,6 @@ import React from "react";
 const Footer = () => {
     return (
         <footer className=" secondarybg text-center">
-            
-
             {/* Footer Content */}
             <div className="p-3 primarybg h-60 flex flex-col items-center justify-center">
                 <h2 className="text-2xl font-semibold mb-3 md:text-3xl">Documentation is just one click away</h2>

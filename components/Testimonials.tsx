@@ -22,27 +22,24 @@ const testimonials = [
     }
 ];
 
-
-
 import React from 'react'
 import { AnimatedTestimonials } from './ui/animated-testimonials'
-import { div } from 'framer-motion/client';
 
 const Testimonials = () => {
     return (
         <div className='secondarybg'>
             <div className='py-16 max-w-screen-md mx-auto'>
 
-        <h2 className="text-center text-black text-sm md:text-base">Trusted by teams</h2>
+                <h2 className="text-center text-black text-sm md:text-base">Trusted by teams</h2>
 
-        {/* Blurred Line */}
-        <div className="relative flex justify-center z-0">
-            <div className="w-full h-[1px] bg-gradient-to-r from-transparent via-black to-transparent"></div>
-        </div>
-            <AnimatedTestimonials testimonials={testimonials}/>
-        </div>
+                {/* Blurred Line */}
+                <div className="relative flex justify-center z-0">
+                    <div className="w-full h-[1px] bg-gradient-to-r from-transparent via-black to-transparent"></div>
+                </div>
+                <AnimatedTestimonials testimonials={testimonials} />
             </div>
+        </div>
     )
 }
 
-export default Testimonials
+export default Testimonials;
