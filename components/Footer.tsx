@@ -2,6 +2,10 @@
 import React from "react";
 
 const Footer = () => {
+    const handleClick = () => {
+        alert('This is just a project to showcase in Portfolio, not an actual saas.')
+    }
+
     return (
         <footer className=" secondarybg text-center">
             {/* Footer Content */}
@@ -16,7 +20,7 @@ const Footer = () => {
                             placeholder="work email"
                             className="flex-1 min-w-0 px-2 py-2 text-black placeholder-black outline-none secondarybg sm:w-auto sm:max-w-xs"
                         />
-                        <button className="px-4 py-2 primarybg text-white font-medium hover:bg-neutral-800 transition rounded-full">
+                        <button className="px-4 py-2 primarybg text-white font-medium hover:bg-neutral-800 transition rounded-full" onClick={handleClick}>
                             Get a Demo
                         </button>
                     </div>
