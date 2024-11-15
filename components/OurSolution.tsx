@@ -4,7 +4,7 @@ import Image from "next/image";
 
 const OurSolution = () => {
     return (
-        <div className="max-w-screen-md mx-auto px-4 py-16">
+        <div className="max-w-screen-md mx-auto px-4 py-16" id="oursolution">
             <h2 className="text-center secondarycolor text-sm md:text-base">Our Solution</h2>
 
             {/* Blurred Line */}

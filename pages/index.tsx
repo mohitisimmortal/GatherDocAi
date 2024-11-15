@@ -18,16 +18,17 @@ const geistMono = localFont({
 });
 
 export default function Home() {
+
   return (
     <div
       className={`${geistSans.variable} ${geistMono.variable} font-[family-name:var(--font-geist-sans)]`}
     >
-      <Header/>
-      <HeroSection/>
-      <ProblemStatement/>
-      <OurSolution/>
-      <Testimonials/>
-      <Footer/>
+      <Header />
+      <HeroSection />
+      <ProblemStatement />
+      <OurSolution />
+      <Testimonials />
+      <Footer />
     </div>
   );
 }

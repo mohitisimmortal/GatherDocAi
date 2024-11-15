@@ -4,6 +4,10 @@ import Link from "next/link";
 import React from "react";
 
 const Header = () => {
+    const handleClick = () => {
+        window.dispatchEvent(new Event('scrollToInput'))
+    }
+
     return (
         <div className="z-50 fixed top-5 left-0 right-0 flex justify-center">
             {/*TO DO- Add a blurry effect in this div--*/}
@@ -14,11 +18,12 @@ const Header = () => {
                     <Link href={'/'}>
                         <CubeIcon />
                     </Link>
-                    <a href="#" className="text-white border-l-[1px] h-4 pl-2 flex items-center text-sm font-extralight md:text-base">
+                    <a href="#oursolution" className="text-white border-l-[1px] h-4 pl-2 flex items-center text-sm font-extralight md:text-base">
                         Product
                     </a>
                 </div>
-                <button className="px-2 py-1 bg-white text-black text-sm md:text-base font-medium rounded-full hover:bg-gray-200">
+                <button className="px-2 py-1 bg-white text-black text-sm md:text-base font-medium rounded-full hover:bg-gray-200" onClick={handleClick}
+                >
                     Get a Demo
                 </button>
             </div>
